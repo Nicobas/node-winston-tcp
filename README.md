@@ -54,4 +54,4 @@ Name                | Description                                               
 `port`              | The server port to connect to                                                 | none
 `reconnectInterval` | Time to pause between disconnect and reconnect (in ms)                        | `1000`
 `bufferLength`      | Number of messages to buffer while disconnected, set to `false` for unlimited | `10000`
-`transforn`         | Function that transform the log object to a string message                    | (info, callback) => callback(JSON.stringify(info))
+`transform`         | Function that transform the log object to a string message                    | (info, callback) => callback(JSON.stringify(info))
